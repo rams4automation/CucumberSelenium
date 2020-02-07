@@ -1,4 +1,4 @@
-package com.Synovus.PageObjects;
+package com.InforM3.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

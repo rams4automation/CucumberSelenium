@@ -1,9 +1,10 @@
-package com.Synovus.PageObjects;
+package com.InforM3.PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 
 public class inforLoginPage {
 	WebDriver driver;
@@ -26,7 +27,7 @@ public class inforLoginPage {
 			 @FindBy(id="mhdrAppBtn")
 			 WebElement AppMenu;
 			
-			 @FindBy(xpath=".//*[@id='icdeskSClk']")
+			 @FindBy(xpath=".//*[@id='icdeskSClk' and @title='Infor M3']")
 			 WebElement inform3;
 			
 			@FindBy(xpath="//*[contains(@id, 'icdeskSClk')]//*[contains(@title, 'Infor M3')]")

@@ -1,4 +1,4 @@
-package com.Synovus.PageObjects;
+package com.InforM3.PageObjects;
 
 import java.util.concurrent.TimeUnit;
 

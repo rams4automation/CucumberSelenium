@@ -6,7 +6,8 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import com.Synovus.PageObjects.SignInPage;
+
+import com.InforM3.PageObjects.SignInPage;
 import com.Synovus.accelerators.ActionDriver;
 import com.Synovus.fileutils.ConfigReader;
 import com.Synovus.fileutils.ExcelReader;
